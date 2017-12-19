@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import React from 'react';
 
 class Card extends React.PureComponent {
@@ -9,5 +10,10 @@ class Card extends React.PureComponent {
 		);
 	}
 }
+
+Card.propTypes = {
+    title: PropTypes.string,
+    release_date: PropTypes.string
+        }
 
 export default Card;
