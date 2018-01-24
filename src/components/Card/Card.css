@@ -1,11 +1,24 @@
 .Card {
     border-color: black;
     border-width: 3px;
-    background-color: rgb(216, 216, 216);
+    background-color: rgb(180, 180, 180);
     display: block;
     float: left;
     width: 250px;
-    margin: 5px;    
+    margin: 5px;
+    cursor:pointer;
+
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
+}
+
+.Card:hover {
+    background-color: rgb(100,100,100);
 }
 
 .Title {

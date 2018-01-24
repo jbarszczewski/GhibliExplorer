@@ -1,11 +1,8 @@
 .App {
+  background-color: #2285C5;
   text-align: center;
 }
 
 .App-logo {
   height: 80px;
-}
-
-.App-intro {
-  font-size: large;
 }
