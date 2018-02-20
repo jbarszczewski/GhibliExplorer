@@ -7,15 +7,13 @@ import { Link } from 'react-router-dom';
 class Card extends React.PureComponent {
     render() {
         return (
-            <Link to={`/details/${this.props.id}`}>
-                <div className="Card">
-                    <p className="Title">
-                        {this.props.title}
-                    </p>
-                    <p className="Year">
-                        {this.props.release_date}
-                    </p>
-                </div>
+            <Link to={`/details/${this.props.id}`} className="Card">
+                <p className="Title">
+                    {this.props.title}
+                </p>
+                <p className="Year">
+                    {this.props.release_date}
+                </p>
             </Link>
         );
     }

@@ -18,7 +18,7 @@
     transition-duration: 0.5s;
 }
 
-.Card:hover {
+.Card:hover, .Card:focus {
     background-color: rgb(100,100,100);
 }
 
